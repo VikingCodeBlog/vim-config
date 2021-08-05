@@ -14,7 +14,7 @@
 "
 "========================================================================
 
-let VIM_HOME = "~/.vim/"
+let VIM_HOME = "~/.config/.vim/"
 
 " Route paths:
 " These paths are used to import all configuration files.
@@ -23,10 +23,6 @@ execute "source " . VIM_HOME . ".routes"
 " Custom Style IDE:
 " Set relative and absolute line number.
 execute "source " . VIM_STYLES . ".lines"        
-
-" Plugins:
-" Import all packages with custom settings.
-execute "source " VIM_PACKS_CONFIG . ".index" 
 
 " Mapping Keys:
 execute "source " VIM_MAPS

@@ -7,4 +7,3 @@ let NERDTreeShowHidden=1       " Allow to see hiden files.
 autocmd VimEnter * NERDTree " Init vim with NERDTree open
 
 map <C-b> :NERDTreeToggle<CR>  " Maped macro to toggle nerdtree
-

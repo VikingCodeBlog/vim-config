@@ -1,7 +1,9 @@
 # vim-config
 ## Install
 Caution! This will remove your current vim config
+
+### Ubuntu Debian:
 ```
-sudo bash /install.sh
+sudo -E bash /install.sh
 ```
 
