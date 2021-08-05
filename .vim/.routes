@@ -1,3 +1,2 @@
 let VIM_STYLES = VIM_HOME . "styles/"
-let VIM_PACKS_CONFIG = VIM_HOME . "packs_config/"
 let VIM_MAPS = VIM_HOME . ".maps"
