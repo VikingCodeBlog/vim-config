@@ -1,6 +1,9 @@
 " All config is on:
 " https://github.com/itchyny/lightline.vim
 
+" packadd! <- The ! is for when you run vim --noplugin so Vim won't the package.
+packadd! lightline              " File system explorer.
+
 set laststatus=2
 set noshowmode
 
