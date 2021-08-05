@@ -16,7 +16,10 @@ echo "Installing config files in ${CONFIG_DIR}..."
 cp .vimrc $CONFIG_DIR/.vimrc
 cp -r .vim $CONFIG_DIR
 
-echo "Create symbolic lint from ~/.vimrc to $CONFIG_DIR/.vimrc"
-ln -s $CONFIG_DIR/.vimrc ~/.vimrc 
+echo "Create symbolic link from ~/.vimrc to $CONFIG_DIR/.vimrc"
+ln -s $CONFIG_DIR/.vimrc $HOME/.vimrc
+
+echo "Create symbolic link from ~/.vim to $CONFIG_DIR/.vim"
+ln -s $CONFIG_DIR/.vim $HOME/.vim
 
 echo "End!"
