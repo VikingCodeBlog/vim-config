@@ -17,3 +17,5 @@ nnoremap <S-j> :m+<CR>
 " List all maps
 map <C-m> :echom "Normal mode mappings:" <bar> :nmap <CR>
 
+" Save the changes to the current file
+map <C-s> :w<CR>
