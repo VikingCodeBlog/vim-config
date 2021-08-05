@@ -1,0 +1,3 @@
+" This is the index of all custom package config imported to the vimrc
+execute "source " . VIM_PACKS_CONFIG . ".nerdtree"
+execute "source " . VIM_PACKS_CONFIG . ".lightline"

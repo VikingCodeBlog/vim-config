@@ -1,0 +1,19 @@
+" Mapping keys:
+ 
+"map <C-b> :NERDTreeToggle<CR>
+ 
+" Allows to move current line to Up/Down line using Shift + Arrou Up/Down
+nnoremap <S-Up> :m-2<CR>
+nnoremap <S-Down> :m+<CR>
+inoremap <S-Up> <Esc>:m-2<CR>
+inoremap <S-Down> <Esc>:m+<CR>
+ 
+" The same but using j and k
+nnoremap <S-k> :m-2<CR>
+nnoremap <S-j> :m+<CR>
+"inoremap <S-k> <Esc>:m-2<CR>
+"inoremap <S-j> <Esc>:m+<CR>
+
+" List all maps
+map <C-m> :echom "Normal mode mappings:" <bar> :nmap <CR>
+
