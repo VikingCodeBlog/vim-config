@@ -39,6 +39,7 @@ If you use the `install.sh` script, the .vim folder and the .vimrc file will be 
 │   └── nerdtree.vim
 ├── .routes
 └── styles
+    ├── .theme
     └── .lines
 .vimrc
 ```
