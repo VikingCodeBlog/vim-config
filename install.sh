@@ -35,6 +35,8 @@ cd $HOME/.vim/pack/vendor/start/
 echo "Install Nerdtree"
 # You can use git
 # git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+# or
+# git submodule add https://github.com/scrooloose/nerdtree ~/.vim/pack/plugins/start/nerdtree
 
 wget https://github.com/preservim/nerdtree/archive/master.tar.gz
 tar -xvf master.tar.gz
