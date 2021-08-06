@@ -11,7 +11,7 @@ Caution! This will remove your current vim config
 
 ### Ubuntu Debian:
 ```
-wget https://github.com/VikingCodeBlog/vim-config/archive/refs/tags/v0.0.1.tar.gz && tar -xvf v0.0.1.tar.gz && cd vim-config-0.0.1 && bash install.sh && cd .. && rm -rf v0.0.1.tar.gz vim-config-0.0.1
+wget https://github.com/VikingCodeBlog/vim-config/archive/refs/tags/v0.0.2.tar.gz && tar -xvf v0.0.2.tar.gz && cd vim-config-0.0.2 && bash install.sh && cd .. && rm -rf v0.0.2.tar.gz vim-config-0.0.2
 
 ```
 
@@ -84,3 +84,6 @@ https://github.com/itchyny/lightline.vim#why-yet-another-clone-of-powerline
 
 
 ![lightline](https://raw.githubusercontent.com/wiki/itchyny/lightline.vim/image/powerline.png)
+
+## Theme
+I don't use external plugins to customize VIM, I have created my own color scheme in the .vim/colors folder and a few modifications in styles/theme.
