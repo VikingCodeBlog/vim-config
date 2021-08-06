@@ -22,4 +22,33 @@ ln -s $CONFIG_DIR/.vimrc $HOME/.vimrc
 echo "Create symbolic link from ~/.vim to $CONFIG_DIR/.vim"
 ln -s $CONFIG_DIR/.vim $HOME/.vim
 
+echo "Install Mjolnir color theme"
+wget https://raw.githubusercontent.com/VikingCodeBlog/mjolnir-for-vim/main/berserker.vim
+mkdir -p ~/.vim/colors/
+mv berserker.vim $HOME/.vim/colors/berserker.vim
+
+echo "Prepare plugins folders"
+mkdir -p $HOME/.vim/pack/vendor/start/
+mkdir -p $HOME/.vim/pack/plugins/start
+
+cd $HOME/.vim/pack/vendor/start/
+echo "Install Nerdtree"
+# You can use git
+# git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+
+wget https://github.com/preservim/nerdtree/archive/master.tar.gz
+tar -xvf master.tar.gz
+rm master.tar.gz
+mv ./nerdtree-master ./nerdtree
+
+cd $HOME/.vim/pack/vendor/start/
+echo "Install Lightline"
+# You can use git
+# git clone https://github.com/itchyny/lightline.vim ~/.vim/pack/plugins/start/lightline
+
+wget https://github.com/itchyny/lightline.vim/archive/master.tar.gz
+tar -xvf master.tar.gz
+rm master.tar.gz
+mv ./lightline.vim-master/ ./lightline
+
 echo "End!"
