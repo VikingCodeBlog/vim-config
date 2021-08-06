@@ -11,7 +11,7 @@ Caution! This will remove your current vim config
 
 ### Ubuntu Debian (wget):
 ```
-wget https://github.com/VikingCodeBlog/vim-config/archive/refs/tags/v0.0.2.tar.gz && tar -xvf v0.0.2.tar.gz && cd vim-config-0.0.2 && bash install.sh && cd .. && rm -rf v0.0.2.tar.gz vim-config-0.0.2
+wget https://github.com/VikingCodeBlog/vim-config/archive/refs/tags/v0.0.3.tar.gz && tar -xvf v0.0.3.tar.gz && cd vim-config-0.0.3 && bash install.sh && cd .. && rm -rf v0.0.3.tar.gz vim-config-0.0.3
 
 ```
 
