@@ -9,9 +9,15 @@ Neovim is better in almost all aspects than Vim, except for one, the speed, Vim,
 ## Install
 Caution! This will remove your current vim config
 
-### Ubuntu Debian:
+### Ubuntu Debian (wget):
 ```
 wget https://github.com/VikingCodeBlog/vim-config/archive/refs/tags/v0.0.2.tar.gz && tar -xvf v0.0.2.tar.gz && cd vim-config-0.0.2 && bash install.sh && cd .. && rm -rf v0.0.2.tar.gz vim-config-0.0.2
+
+```
+
+### Ubuntu Debian (git):
+```
+git clone https://github.com/VikingCodeBlog/vim-config.git && bash ./vim-config/install.sh
 
 ```
 
@@ -20,6 +26,8 @@ If you use the `install.sh` script, the .vim folder and the .vimrc file will be 
 
 ```bash
 .vim
+├── colors
+│   └── berserker
 ├── .maps
 ├── pack
 │   ├── plugins
