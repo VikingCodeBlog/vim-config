@@ -36,3 +36,7 @@ set showcmd " Shows commands when you write them
 set encoding=utf-8
 set showmatch " Shows the pair of a parenteis
 set tabstop=2 shiftwidth=2 " Use 2 spaces instead tabs
+set noswapfile " use git
+set nobackup " use git
+set undofile " Allows you to undo or redo changes even after closing the file
+set undodir=$VIM_HOME/undodir 
